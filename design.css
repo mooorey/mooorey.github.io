@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1,
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+}
+
+.section-1 {
+    background-color: #7de6e6;
+    padding: 45px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+
+}
+
+.section-1 p {
+    margin: 20px 0px;
+}
+
+.section-1 button {
+    background-color: #24bdc9;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 12px 23px;
+    margin: 20px 0;
+
+    font-size: large;
+}
+
+.section-2 h1 {
+
+    text-align: center;
+    margin-bottom: 2.5rem;
+
+}
+
+.section-2 p h3 {
+
+  
+    font-size: 20px;
+    line-height: 1.5;
+    color: #3a4348;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+
+}
+
+
+.metrics {
+    position: relative;
+}
+img.img-fluid.metrics-background {
+    width: 80%;
+}
+img.img-fluid.metrics-icon {
+    width: 27%;
+}
+
+.img-fluid.metrics-icon {
+
+    position: absolute;
+    left: 25%;
+    bottom: 29%;
+}
+
+.section-3 {
+    background-color: #7de6e6;
+    padding: 70px;
+    margin-top: 110px;
+
+}
+
+.section-3 h1 {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 3rem;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+
+
+}
+
+
+
+.section-3 p {
+
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 5rem;
+    
+
+}
+
+.section-5 p {
+
+    text-align: left;
+    font-size: large;
+
+}
+
+.section-5 h1 {
+    
+    margin-bottom: 4.5rem;
+}
+
+.section-5 button {
+    background-color: #24bdc9;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 12px 23px;
+    font-size: large;
+    margin: 20px 0;
+
+}
+
+.section-5 {
+    margin: 100px 0px;
+}
+
+.section-4 .row {
+
+    margin-top: 10rem;
+
+}
+
+.section-4 h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+
+html body {
+    background-color: white;
+}
+
+
+.slider {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.slide h6 {
+    margin-top: 30px;
+}
+
+footer {
+
+    margin-top: 50px;
+    text-align: center;
+    background-color: #24bdc9;
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+
+}
+@media only screen and (max-width: 480px) {
+    .section-3 h1 {
+        text-align: center;
+        justify-content: center;
+        color: white;
+        margin-top: -1rem;
+        font-size: 31px;
+        font-weight: bold;
+        margin-bottom:-0.5rem;
+
+  }
+  .section-3 p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 3rem;
+    font-weight: 800;
+}
+.img-fluid.metrics-background {
+
+    display: flex;
+
+    margin: 0 auto;
+
+    width: 40%;
+
+  }
+
+ 
+
+  .img-fluid.metrics-icon {
+
+    position: absolute;
+
+    left: 36%;
+
+    bottom: 30%;
+
+    width: 10%;
+
+  }
+
+  .section-2  h3 {
+    text-align: center;
+  }
+  .section-2  p {
+    text-align: center;
+  }
+  .col-sm-12.col-md-3.col-lg-3.col-12.aos-init.aos-animate {
+    margin: 35px 0px;
+}
+
+}
